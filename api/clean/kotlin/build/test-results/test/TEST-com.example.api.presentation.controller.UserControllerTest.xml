@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.api.presentation.controller.UserControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-08T09:19:58" hostname="DESKTOP-7EE87N6" time="3.468">
+  <properties/>
+  <testcase name="should return bad request when user creation fails()" classname="com.example.api.presentation.controller.UserControllerTest" time="2.578"/>
+  <testcase name="should create user successfully()" classname="com.example.api.presentation.controller.UserControllerTest" time="0.535"/>
+  <testcase name="should get all users successfully()" classname="com.example.api.presentation.controller.UserControllerTest" time="0.316"/>
+  <testcase name="should get user by id successfully()" classname="com.example.api.presentation.controller.UserControllerTest" time="0.02"/>
+  <testcase name="should return not found when user does not exist()" classname="com.example.api.presentation.controller.UserControllerTest" time="0.013"/>
+  <system-out><![CDATA[18:19:47.232 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.api.presentation.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:19:48.371 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.api.Application for test class com.example.api.presentation.controller.UserControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2025-06-08T18:19:52.143+09:00  INFO 10333 --- [    Test worker] c.e.a.p.controller.UserControllerTest    : Starting UserControllerTest using Java 17.0.15 with PID 10333 (started by jin in /mnt/c/dev/architecture-templates-clean/api/clean/kotlin)
+2025-06-08T18:19:52.147+09:00  INFO 10333 --- [    Test worker] c.e.a.p.controller.UserControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-06-08T18:19:58.257+09:00  INFO 10333 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-08T18:19:58.259+09:00  INFO 10333 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-08T18:19:58.264+09:00  INFO 10333 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2025-06-08T18:19:58.330+09:00  INFO 10333 --- [    Test worker] c.e.a.p.controller.UserControllerTest    : Started UserControllerTest in 9.19 seconds (process running for 24.038)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
